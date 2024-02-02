@@ -1,16 +1,7 @@
-#Задачка
-tseloe = 10
-drobnoe = 8.4
-stroka = "No"
-
-big_netseloe = tseloe * 3.5
-print(big_netseloe)
-
-drobnoe = drobnoe - 1
-print(drobnoe)
-
-print(tseloe / drobnoe)
-print(big_netseloe / drobnoe)
-
-print(stroka * 2 +"_" + "Yes" * 3)
-
+dark = input("Вы хотите спать? (Да, Нет, Не знаю)")
+if dark == "Да":
+    print("Идите спать")
+elif dark == "Не знаю":
+    print("Подумайте ещё")
+else:
+    print("Идите гулять")
